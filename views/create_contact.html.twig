@@ -7,11 +7,11 @@
     <body>
         <div class="container">
             <h1>You created a contact! Here's the information for your review below:</h1>
-            <p>{{ newContact.getName }}</p>
-            <p>{{ newContact.getPhone }}</p>
-            <p>{{ newContact.getAddress }}</p>
+            <p>Name: <span class="name">{{ newcontact.getFirstName }} {{ newcontact.getLastName}}</span></p>
+            <p>Phone number: {{ newcontact.getPhone }}</p>
+            <p>Address: {{ newcontact.getAddress }}</p>
 
-            <p><a href='/'>View all your contacts.</a></p>
+            <p><a href='/'>View all your contacts!</a></p>
         </div>
     </body>
 </html>
