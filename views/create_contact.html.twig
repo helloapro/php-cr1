@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link href='css/styles.css' type='text/css' rel='stylesheet'>
+        <title>Address Book</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>You created a contact! Here's the information for your review below:</h1>
+            <p>{{ newContact.getName }}</p>
+            <p>{{ newContact.getPhone }}</p>
+            <p>{{ newContact.getAddress }}</p>
+
+            <p><a href='/'>View all your contacts.</a></p>
+        </div>
+    </body>
+</html>
